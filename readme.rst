@@ -211,28 +211,28 @@ Roles
 
 The structure of a role:
 
-/etc/ansible/roles/MY_ROLE_NAME
+-  /etc/ansible/roles/MY_ROLE_NAME
 
 Here you can define the parameters for the role like:
 
-/vars/main.yml
+-  /vars/main.yml
 
 Custom variables for the task like a default directory
 
-/handlers/main.yml
+-  /handlers/main.yml
 
 Define a handler that is triggerd by our task. For example restart sshd
 
-/files/
+-  /files/
 
 Folder for the files if you use any in the play
 
-/templates/nginx.conf.j2
+-  /templates/nginx.conf.j2
 
 Set a custom configuration file based on our template. Here you can use
 variables based on variables defined in the vars folder
 
-/tasks/main.yml
+-  /tasks/main.yml
 
 In this file, you define the tasks for the roles
 
