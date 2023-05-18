@@ -21,6 +21,7 @@ Example use cases:
 Ansible basics
 --------------
 
+
 Ansible configuration file: 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -44,6 +45,8 @@ Private_key_file – You can set the private SSH key location.
 
 Remote_user - Set the remote username, ansible use the current user if
 it’s not defined.
+
+
 
 Inventory file:
 ~~~~~~~~~~~~~~~
@@ -73,6 +76,8 @@ Structure:
 [fileserver]
 
 192.168.0.5
+
+
 
 Ad hoc commands:
 ~~~~~~~~~~~~~~~~
@@ -194,6 +199,8 @@ Tasks:
 |                 | the sshd service.                                  |
 +-----------------+----------------------------------------------------+
 
+
+
 Roles
 -----
 
@@ -228,6 +235,9 @@ variables based on variables defined in the vars folder
 /tasks/main.yml
 
 In this file, you define the tasks for the roles
+
+
+
 
 Templates
 ---------
